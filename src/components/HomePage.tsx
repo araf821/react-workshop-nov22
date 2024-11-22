@@ -1,24 +1,34 @@
+import EducationSection from "./EducationSection";
 import Header from "./Header";
 
 function HomePage() {
   return (
     <div className="home-page">
       <Header />
+      <EducationSection />
 
       <div className="section">
-        <h2 className="text-xl md:text-2xl font-semibold">Education</h2>
+        <h2 className="text-xl md:text-2xl font-semibold">Projects</h2>
         <hr className="border-t-2" />
 
         <div className="space-y-1 w-full">
-          <div className="flex justify-between items-start">
-            <h3 className="md:text-lg font-bold">Computer Science</h3>
-            <p className="text-nowrap">Sep 2012 - Apr 2077</p>
-          </div>
-          <h4 className="max-md:text-sm font-medium">York University</h4>
-          <p className="max-md:text-sm font-light">
-            <span className="font-semibold">Relevant Courses:</span> React
-            Workshop, Advanced OOP, Computer Organization, Discrete Mathematics
-          </p>
+          <h3 className="md:text-lg font-bold">
+            Instagram - A Social Media Platform
+          </h3>
+          <h4 className="text-xs md:text-sm text-gray-500">
+            React | TypeScript | Java | Python | SQL
+          </h4>
+          <ul className="ml-4 list-disc text-sm">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              maiores distinctio ducimus quisquam fugit veritatis.
+            </li>
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium soluta assumenda veniam sapiente commodi ipsam, minus
+              iste rem quasi non?
+            </li>
+          </ul>
         </div>
       </div>
     </div>
