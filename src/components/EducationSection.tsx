@@ -1,8 +1,9 @@
+import SectionHeader from "./SectionHeader";
+
 function EducationSection() {
   return (
     <div className="section">
-      <h2 className="text-xl md:text-2xl font-semibold">Education</h2>
-      <hr className="border-t-2" />
+      <SectionHeader heading="Education" />
 
       <div className="space-y-1 w-full">
         <div className="flex justify-between items-start">

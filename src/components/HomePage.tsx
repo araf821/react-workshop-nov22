@@ -1,6 +1,7 @@
 import EducationSection from "./EducationSection";
 import Header from "./Header";
 import ProjectsSection from "./ProjectsSection";
+import SkillsSection from "./SkillsSection";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <Header />
       <EducationSection />
       <ProjectsSection />
+      <SkillsSection />
     </div>
   );
 }

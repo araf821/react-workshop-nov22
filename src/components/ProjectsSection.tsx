@@ -1,8 +1,9 @@
+import SectionHeader from "./SectionHeader";
+
 function ProjectsSection() {
   return (
     <div className="section">
-      <h2 className="text-xl md:text-2xl font-semibold">Projects</h2>
-      <hr className="border-t-2" />
+      <SectionHeader heading="Projects" />
 
       <div className="space-y-1 w-full">
         <h3 className="md:text-lg font-bold">
